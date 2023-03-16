@@ -88,8 +88,8 @@ app.get('/',(req, res)=>{
 // })
 
 
-app.listen(3000, ()=>{
-    console.log('NODE APP IS RUNNING ON PORT 3000')
+app.listen(4000, ()=>{
+    console.log('NODE APP IS RUNNING ON PORT 4000')
 })
 
 // mongoose
