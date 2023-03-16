@@ -88,14 +88,18 @@ app.get('/',(req, res)=>{
 // })
 
 
-mongoose
-.connect('mongodb://localhost:27017/app')
-.then(()=>{
-    app.listen(3000, ()=>{
-        console.log('NODE APP IS RUNNING ON PORT 3000')
-    })
-    console.log('MongoDB is connected')
+app.listen(3000, ()=>{
+    console.log('NODE APP IS RUNNING ON PORT 3000')
 })
-.catch((error)=>{
-    console.log(error);
-})
+
+// mongoose
+// .connect('mongodb://localhost:27017/app')
+// .then(()=>{
+//     app.listen(3000, ()=>{
+//         console.log('NODE APP IS RUNNING ON PORT 3000')
+//     })
+//     console.log('MongoDB is connected')
+// })
+// .catch((error)=>{
+//     console.log(error);
+// })
