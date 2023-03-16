@@ -11,7 +11,7 @@ app.use('/api/user',router)
 
 
 app.get('/',(req, res)=>{
-     res.send("Hello world node scriptingg to run  ")
+     res.send("Hello world node scripting  ")
 })
 
 // app.get('/get-all-products', async(req, res)=>{
