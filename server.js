@@ -4,7 +4,7 @@ const app = express();app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 app.get('/',(req,res)=>{
-  res.send('running the ubuntu server test')
+  res.send('new changes in the serverrr')
 })
 
 app.listen(5000,()=>{
