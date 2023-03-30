@@ -9,9 +9,8 @@ app.use(express.urlencoded({extended: false}))
 
 app.use('/api/user',router)
 
-
 app.get('/',(req, res)=>{
-     res.send("Hello world node scripting  ")
+     res.send(" testing node scripting  ")
 })
 
 // app.get('/get-all-products', async(req, res)=>{
