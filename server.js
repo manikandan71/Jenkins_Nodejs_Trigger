@@ -4,7 +4,7 @@ const app = express();app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 app.get('/',(req,res)=>{
-  res.send('hello from jenkins testingss')
+  res.send('hello from jenkins testingss github pushing')
 })
 
 app.listen(5000,()=>{
